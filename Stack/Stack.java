@@ -4,7 +4,7 @@ import Nodes.Node;
 
 public class Stack implements ADTStack {
     private Node head;
-    private int nData;
+    public int nData;
 
     public Stack() {
         this.head = null;
