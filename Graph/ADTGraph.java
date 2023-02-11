@@ -1,7 +1,9 @@
 package Graph;
 
 public interface ADTGraph {
-    public void agregar();
+    public void agregarNodoAGafica();
 
-    public void eliminar();
+    public void agregarBordeAGrafica(int[] arr);
+
+    public void agregarNodoYBordeAGrafica(int[] arr);
 }
